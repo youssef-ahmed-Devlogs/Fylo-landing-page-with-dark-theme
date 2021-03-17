@@ -1,0 +1,104 @@
+@media (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .services-content {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .services-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .productive-content {
+    flex-direction: column;
+  }
+
+  .productive-content .productive-image {
+    margin-bottom: 40px;
+  }
+
+  .testimonials-content {
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .testimonials-content .testimonials-item:nth-child(2){
+    margin: 50px 0;
+  }
+  
+  .footer-get-early-access {
+    width: 90%
+  }
+
+  footer .inputs,
+  .footer-content,
+  .footer-content .sections  {
+    display: block;
+  }
+
+  .footer-get-early-access input,
+  .footer-get-early-access button  {
+    display: block;
+    margin: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .footer-get-early-access button {
+    margin-top: 30px;
+  }
+
+  .footer-content .info {
+    margin-bottom: 20px;
+  }
+
+  .footer-content .contacts,
+  .footer-content .sections {
+    margin-bottom: 60px;
+  }
+
+  .footer-content .social {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro-image img {
+    width: 100%;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 23px !important;
+  }
+
+  p {
+    font-size: 15px !important;
+  }
+
+  .nav-content .logo {
+    width: 70px;
+  }
+
+  .nav-content ul li {
+    margin: 0 0 10px;
+  }
+
+  .nav-content ul li a {
+    font-size: 14px;
+  }
+}
